@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Agent__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <description>Sales agent responsible for the policy (Lookup relationship).</description>
+    <label>Agent</label>
+    <referenceTo>User</referenceTo>
+    <relationshipLabel>Policies Managed</relationshipLabel>
+    <relationshipName>Policies_Managed</relationshipName>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

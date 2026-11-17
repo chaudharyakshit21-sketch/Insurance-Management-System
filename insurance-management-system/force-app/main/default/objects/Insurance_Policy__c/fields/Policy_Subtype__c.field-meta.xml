@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Policy_Subtype__c</fullName>
+    <label>Policy Subtype</label>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>Policy_Type__c</controllingField>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Term Life</fullName>
+                <default>false</default>
+                <label>Term Life</label>
+            </value>
+            <value>
+                <fullName>Whole Life</fullName>
+                <default>false</default>
+                <label>Whole Life</label>
+            </value>
+            <value>
+                <fullName>Individual</fullName>
+                <default>false</default>
+                <label>Individual</label>
+            </value>
+            <value>
+                <fullName>Family Floater</fullName>
+                <default>false</default>
+                <label>Family Floater</label>
+            </value>
+            <value>
+                <fullName>Comprehensive</fullName>
+                <default>false</default>
+                <label>Comprehensive</label>
+            </value>
+            <value>
+                <fullName>Third Party</fullName>
+                <default>false</default>
+                <label>Third Party</label>
+            </value>
+            <value>
+                <fullName>Building</fullName>
+                <default>false</default>
+                <label>Building</label>
+            </value>
+            <value>
+                <fullName>Contents</fullName>
+                <default>false</default>
+                <label>Contents</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>Life</controllingFieldValue>
+            <valueName>Term Life</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Life</controllingFieldValue>
+            <valueName>Whole Life</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Health</controllingFieldValue>
+            <valueName>Individual</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Health</controllingFieldValue>
+            <valueName>Family Floater</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Auto</controllingFieldValue>
+            <valueName>Comprehensive</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Auto</controllingFieldValue>
+            <valueName>Third Party</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Home</controllingFieldValue>
+            <valueName>Building</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Home</controllingFieldValue>
+            <valueName>Contents</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

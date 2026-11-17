@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>New_Claim_Needs_Active_Policy</fullName>
+    <active>true</active>
+    <description>Claims can only be raised against an Active policy.</description>
+    <errorConditionFormula>AND(ISNEW(), NOT(ISPICKVAL(Policy__r.Status__c, "Active")))</errorConditionFormula>
+    <errorMessage>Claims can only be raised against an Active policy.</errorMessage>
+</ValidationRule>

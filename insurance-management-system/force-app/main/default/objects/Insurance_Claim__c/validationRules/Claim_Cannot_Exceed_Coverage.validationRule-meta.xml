@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Claim_Cannot_Exceed_Coverage</fullName>
+    <active>true</active>
+    <description>Claim amount cannot exceed the policy coverage amount.</description>
+    <errorConditionFormula>Claim_Amount__c &gt; Policy__r.Coverage_Amount__c</errorConditionFormula>
+    <errorDisplayField>Claim_Amount__c</errorDisplayField>
+    <errorMessage>Claim amount cannot exceed the policy coverage amount.</errorMessage>
+</ValidationRule>
